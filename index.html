@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canary Sun - Official site</title>
+	
+	<!-- Favicon -->
+	<link rel="icon" href="favicon2.png" type="image/x-icon" />
+	
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-image: url(yt-baner.jpg);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding-top: 0.6cm;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+	
+		.link {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 125px;
+			height: 125px;
+			border-radius: 50%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0 1cm;
+			/* Hover effect */
+			transition: transform 0.2s ease-in-out;
+			font-family: 'Helvetica', sans-serif;
+			font-size: 24px;
+		}
+
+		.link:hover {
+			transform: scale(1.1);
+		}
+	
+		.video-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 7.4cm;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+
+		.video {
+			width: 500px;
+			height: 300px;
+			margin: 0 1cm;
+		}
+
+		.footer {
+			text-align: center;
+			margin-top: 7cm;
+			margin-bottom: 2cm;
+			color: white;
+			font-family: 'Helvetica', sans-serif;
+			font-weight: bold;
+			font-size: 22px;
+		}
+	
+		.email {
+			font-size: 22px;
+			font-weight: bold;
+			display: block;
+		}
+
+		.email:hover {
+			font-family: 'Helvetica', sans-serif;
+			font-size: 24px;
+			cursor: pointer;
+		}
+
+		.header {
+			text-align: center;
+			margin-top: 2cm;
+			color: white;
+			font-family: 'Helvetica', sans-serif;
+			font-size: 23px;
+			text-transform: uppercase;
+		}
+		
+	</style>
+	
+	<script src="script.js"></script>
+	
+</head>
+
+<body>
+	<!-- Header -->
+	<header class="header">
+		<h1>Welcome to the official Canary Sun website</h1>
+	</header>
+
+	<!-- Links -->
+	<div class="container">
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1" class="link" target="_blank" style="background-image: url(facebooklogo2.png);"></a>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1" class="link" target="_blank" style="background-image: url(instalogo.jpg);"></a>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1" class="link" target="_blank" style="background-image: url(youtubelogo.png);"></a>
+	</div>
+
+
+	<!-- Videos -->
+	<div class="video-container">
+		<iframe class="video" src="https://www.youtube.com/embed/tEpW1Z-I19A"></iframe>
+		<iframe class="video" src="https://www.youtube.com/embed/rvERwOg1Y48"></iframe>
+		<iframe class="video" src="https://www.youtube.com/embed/YO6P_cKnjjI"></iframe>
+	</div>
+
+
+<!-- Footer -->
+<footer class="footer">
+		<p>Copyright © 2023 Canary Sun <span class="email">canarysun@gmail.com</span></p>
+	</footer>
+
+
+</body>
+</html>
